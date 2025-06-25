@@ -54,7 +54,7 @@ export default function BuyPassScreen() {
 
       {/* Botão Formas de Pagamento */}
       <TouchableOpacity style={styles.paymentButton}>
-        <Text style={styles.paymentText}>Extrato detahado</Text>
+        <Text style={styles.paymentText}>Extrato detalhado</Text>
         <Ionicons name="chevron-down" size={20} color="black" />
       </TouchableOpacity>
 
