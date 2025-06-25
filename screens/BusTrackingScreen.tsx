@@ -24,7 +24,7 @@ export default function BuyTicketScreen() {
         <Feather name="bell" size={24} color="#FF6600" />
       </View>
 
-      <Text style={styles.title}>Comprar bilhete</Text>
+      <Text style={styles.title}>Fazer recarga</Text>
 
       <View style={styles.row}>
         <MaterialCommunityIcons name="calendar-month-outline" size={20} color="#FF6600" />
