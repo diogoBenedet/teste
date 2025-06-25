@@ -32,12 +32,12 @@ export default function HomeScreen() {
 
       <TouchableOpacity style={styles.button} onPress={() => navigation.navigate('BusTracking')}>
         <MaterialIcons name="directions-bus" size={24} color="black" />
-        <Text style={styles.buttonText}>Acompanhar Ônibus</Text>
+        <Text style={styles.buttonText}>Comprar Bilhete</Text>
       </TouchableOpacity>
 
       <TouchableOpacity style={styles.button} onPress={() => navigation.navigate('BuyPass')}>
         <FontAwesome name="credit-card" size={22} color="black" />
-        <Text style={styles.buttonText}>Comprar Passe</Text>
+        <Text style={styles.buttonText}>Acompanhar Saldo</Text>
       </TouchableOpacity>
 
       <TouchableOpacity style={styles.button} onPress={() => navigation.navigate('PlanRoute')}>
